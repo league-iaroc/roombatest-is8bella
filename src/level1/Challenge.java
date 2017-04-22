@@ -17,9 +17,15 @@ public class Challenge extends Head {
 	 * use sleep an driveDirect 
 	 */
 	public void initialize() {
-		//write code here!
-		
-		
+		driveDirect(600,600);
+		sleep(2000);
+		driveDirect(250,500);
+		sleep(1600);
+		driveDirect(600,600);
+		sleep(5200);
+		driveDirect(250,500);
+		sleep(1400);
+		driveDirect(600,600);
 		
 	}
 
